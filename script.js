@@ -1,6 +1,8 @@
 value = 0
 max = 100
 
+setTimeout(() => {document.querySelector('button').forEach((elm) => {elm.style.color = 'white'})}, 100)
+
 function add() {
     value += 1
     if (max < 0) {max = 0}
